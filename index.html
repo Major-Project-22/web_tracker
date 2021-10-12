@@ -36,6 +36,20 @@
         .number{
             font-size: xx-large;
         }
+	    .card1:hover{
+            animation: pulse 7s infinite;
+        }
+        @keyframes pulse {
+  0% {
+    background-color: #ffaf4d;
+  }
+  50% {
+    background-color: #ffff4d;
+  }
+  100%{
+      background-color:#cbc78b
+  }
+}
         
     </style>
 </head>
@@ -56,7 +70,7 @@
         <tr>
             <td>
                 <div class="card first" style="width: 22rem;">
-  <div class="card-body">
+  <div class="card-body card1">
     <h5 class="card-title">Medicine 1</h5>
     <h6 class="card-subtitle mb-2 text-muted">Medicine Weight</h6>
     <p class="card-text number">Amount Remaining</p>
@@ -67,7 +81,7 @@
             </td>
             <td>
                 <div class="card second" style="width: 22rem;">
-  <div class="card-body">
+  <div class="card-body card1">
     <h5 class="card-title">Medicine 2</h5>
     <h6 class="card-subtitle mb-2 text-muted">Medicine Weight</h6>
     <p class="card-text number">Amount Remaining</p>
@@ -78,7 +92,7 @@
             </td>
             <td>
                 <div class="card third" style="width: 22rem;">
-  <div class="card-body ">
+  <div class="card-body card1">
     <h5 class="card-title">Medicine 3</h5>
     <h6 class="card-subtitle mb-2 text-muted">Medicine Weight</h6>
     <p class="card-text number">Amount Remaining</p>
@@ -89,7 +103,7 @@
             </td>
             <td>
                 <div class="card fourth" style="width: 22rem;">
-  <div class="card-body ">
+  <div class="card-body card1 ">
     <h5 class="card-title">Medicine 4</h5>
     <h6 class="card-subtitle mb-2 text-muted">Medicine Weight</h6>
     <p class="card-text number">Amount Remaining</p>
