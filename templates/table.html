@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+	<title>Medication Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="
+	sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <body>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Time</th>
+              </tr>
+            </thead>
+            <tbody>
+                {% for entry in log %}
+              <tr>
+                <td>{{entry['medicine']}}</td>
+                <td>{{entry['time']}}</td>
+              </tr>
+              {% endfor %}
+              <script src="static/functions.js"></script>
+               </tbody>
+          </table>
+    </body>
