@@ -1,0 +1,12 @@
+#dnroot{
+    background-image: url("A:\7th Sem\Major Project\react-tracker\tracker\src\assets\National-Doctors-Day-Banner.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    margin-top: 1%;
+    float: right;
+}
+.forgot-password{
+    margin-top: 4%;
+}
